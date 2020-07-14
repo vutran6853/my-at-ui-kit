@@ -5,7 +5,7 @@
         <p>User 1</p>
         <p>User 2</p>
       </div>
-      <div>
+      <div class="chat-room-inner-right-container">
         <p>Live Text by all Attendees</p>
       </div>
     </div>
@@ -57,5 +57,11 @@ export default {
   background-color: greenyellow;
   border-radius: 5px;
   margin-bottom: 0.5rem;
+}
+
+.chat-room-inner-right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
