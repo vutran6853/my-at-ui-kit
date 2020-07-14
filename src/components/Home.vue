@@ -75,7 +75,6 @@ export default {
           message: 'Please enter new PIN.'
         })
       }
-     
     }
   }
 }
